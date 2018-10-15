@@ -1,0 +1,41 @@
+TITLE: Carter Fowler, Section A, Morgan Cox, Section A, Brick Breaker!
+PROBLEM DESCRIPTION: For our problem we wanted to create a game of brick breaker with C++. In our origional idea we wanted to have 3 rows of bricks and have the ball break
+all of the bricks. However we choose not to do three rows of bricks. Otherwise our final submission matches our origioinal plan. Our project will use a ball and a moving paddle to break the bricks,
+if the player misses the ball with the paddle then the ball will restart until the player runs out of lives. If the palyer hits the ball then it will bounce back up and try to take out the bricks. If
+the player can take out all of the bricks then the player will win the game!
+
+PROGRAM DOCUMENTATION: To run the program you must run as a make file so it creates an a.out file and then you must run it using c9vnc so that it runs in sfml. In other words our program needs to be 
+built using sfml. To play the game you must press space bar and then use only the arrow keys to move the paddle across the screen. If lives is equal to 0 then the screen will close. Also when the ball 
+hits a brick it will change colors, we added this to make it more lively and fun looking!! One more thing..if q is pressed the window will also exit out! This gives the user a way to exit the game whenever
+they feel like doing so. 
+If we had more time we would have incorparated the following:
+1. Multipule levels of a faster moving ball
+    - after the player wins we could add speed to the ball so that the levels get more challenging 
+2. More bricks
+    - this could be done using another vector 
+3. Different size balls
+    - this could be done using the random function making the ball redraw as a different size after every life
+4. A file that keeps track of score
+    - this would allow the user to know their highest scores
+    - To do this after every brick was hit we could add more to the score and then write the final score to a seperate file
+TESTS: 
+1. If the user presses the left or right keyboard arrow then the paddle shoud shit to the left or the right, respectively.
+2. If the paddle hits the wall, pressing the arrow in that direction should not allow the arrow to continue to go that direction
+3. When the ball hits the paddle it should change it's direction and go in the opposite direction in other words the ball will
+bounce off of the paddle when they collide
+4. If the ball hits the bricks the bricks should be deleted.
+5. If the ball falls off the screen then (this is only possible below the paddle) the ball and the paddle should reset in it's origional position
+and wait for the player to hit the spacebar again.
+6. At the begininng when the user presses the space bar the ball should move and the text on the screen should disapear.
+
+REFLECTIONS:
+In this project we learned many things. First we learned how to work in colaboration with eachother. This is a very important skill
+to have and use in the computer science world. In adition to collaboration we learned how to pair program. This takes a lot of collaboration 
+becasue you have to learn and respect the other person's programming style and learn how to read and understand how they are thinking so that
+you can give useful input and suggestions while watching. As far as programming goes for this project we leanred a lot more about SFML and how 
+to think about our problems with logic and mathematics. For example trying to figure out how to get the ball and the paddle to collide required
+us to think logically but also use mathematics to get it to work correctly. This project also taught us how to use classes effectively and effiecntly.
+For our project we had to use 3 different classes and get them to work in conjucntion with eachother. We also had to decide to properly declare public 
+and private objects for the classses. By doing all of this our understanding of classes has gotten much better than before. For this project if we had 
+time to complete it we would have liked to gone a lot farther with our program. To begin we would have liked to find a way to implement levels. This could 
+have taught us a lot more about animating and using sfml graphics to do things.

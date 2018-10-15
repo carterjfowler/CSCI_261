@@ -1,0 +1,5 @@
+Time:1509937379 Human: Rock. Computer: Paper. = L
+Time:1509937384 Human: Paper. Computer: Paper. = T
+Time:1509937386 Human: Rock. Computer: Paper. = L
+Time:1509937389 Human: Scissors. Computer: Paper. = W
+Time:1509937391 Human: Paper. Computer: Paper. = T
